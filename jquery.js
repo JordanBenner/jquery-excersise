@@ -11,5 +11,5 @@ $(document).ready(function() {
   });
 });
 $('#the-button').click(function() {
-  $(this).text('you clicked me!');
+  $(this).text('You Clicked me!');
 })
