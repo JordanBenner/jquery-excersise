@@ -4,32 +4,23 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+  <script src="//code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
   <script src="jquery.js"></script>
   <script>
     /*
         Change the text of the button to "Please click me!". Putting your code in the document ready block is important.
         */
-    $(document).ready(function() {
-      // Put your code here
-      $('a').click(function(event) {
-        event.preventDefault();
-      });
-      $('textarea').keydown(function(event) {
-        console.log('Key Down:', event.keyCode);
-      });
-      $('textarea').keyup(function(event) {
-        console.log('Key Up:', event.keyCode);
-      });
-    });
+
   </script>
 </head>
 
 <body>
-  <button id="the-button">meh</button>
+  <input id="search" name="search">
+  <button id="the-button">Please Click Me!</button>
   <script>
-    $('#the-button').click(function() {
-      $(this).text('you clicked me!');
-    })
+
   </script>
 </body>
 
