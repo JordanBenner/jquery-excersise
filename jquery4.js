@@ -10,7 +10,4 @@ $(document).ready(function() {
     $('#log').append( '<li>' + input + '</li>');
   });
 
-
-
-
 })
